@@ -97,7 +97,7 @@ Pull requests and suggestions are welcome. Feel free to open issues for bugs or 
 
 ## 🙏 Credits
 
-Inspired by and built upon the work from peleg-development/peleg-Recoil
+Inspired by and built upon the work from [peleg-development](https://github.com/peleg-development/peleg-Recoil)
 ---
 
 ## 📄 License
