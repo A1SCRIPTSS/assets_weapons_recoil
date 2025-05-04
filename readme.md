@@ -95,6 +95,9 @@ Tested with:
 
 Pull requests and suggestions are welcome. Feel free to open issues for bugs or enhancements.
 
+## 🙏 Credits
+
+Inspired by and built upon the work from peleg-development/peleg-Recoil
 ---
 
 ## 📄 License
