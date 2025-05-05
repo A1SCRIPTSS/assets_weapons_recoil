@@ -75,86 +75,6 @@ Config.Attachments = {
 }
 
 Config.Weapons = {
-    ["weapon_unarmed"] = {
-        recoil = 0.0,
-        type = "unarmed",
-        label = "Fists"
-    },
-    ["weapon_knife"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Knife"
-    },
-    ["weapon_nightstick"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Nightstick"
-    },
-    ["weapon_hammer"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Hammer"
-    },
-    ["weapon_bat"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Baseball Bat"
-    },
-    ["weapon_crowbar"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Crowbar"
-    },
-    ["weapon_golfclub"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Golf Club"
-    },
-    ["weapon_bottle"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Broken Bottle"
-    },
-    ["weapon_dagger"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Dagger"
-    },
-    ["weapon_hatchet"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Hatchet"
-    },
-    ["weapon_knuckle"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Knuckle Duster"
-    },
-    ["weapon_machete"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Machete"
-    },
-    ["weapon_flashlight"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Flashlight"
-    },
-    ["weapon_switchblade"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Switchblade"
-    },
-    ["weapon_poolcue"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Pool Cue"
-    },
-    ["weapon_pipewrench"] = {
-        recoil = 0.0,
-        type = "melee",
-        label = "Pipe Wrench"
-    },
     ["weapon_pistol"] = {
         recoil = 1.5,
         type = "pistol",
@@ -246,11 +166,6 @@ Config.Weapons = {
                 label = "Pistol Barrel"
             }
         }
-    },
-    ["weapon_stungun"] = {
-        recoil = 0.0,
-        type = "pistol",
-        label = "Stun Gun"
     },
     ["weapon_pistol50"] = { 
         recoil = 4.0, 
@@ -370,51 +285,6 @@ Config.Weapons = {
                 label = "Pistol Barrel"
             }
         }
-    },
-    ["weapon_flaregun"] = {
-        recoil = 0.0,
-        type = "pistol",
-        label = "Flare Gun"
-    },
-    ["weapon_marksmanpistol"] = {
-        recoil = 2.5,
-        type = "pistol",
-        label = "Marksman Pistol"
-    },
-    ["weapon_revolver"] = {
-        recoil = 3.0,
-        type = "pistol",
-        label = "Revolver"
-    },
-    ["weapon_revolver_mk2"] = {
-        recoil = 2.8,
-        type = "pistol",
-        label = "Revolver Mk II"
-    },
-    ["weapon_doubleaction"] = {
-        recoil = 2.7,
-        type = "pistol",
-        label = "Double Action Revolver"
-    },
-    ["weapon_raypistol"] = {
-        recoil = 0.0,
-        type = "pistol",
-        label = "Up-n-Atomizer"
-    },
-    ["weapon_ceramicpistol"] = {
-        recoil = 1.5,
-        type = "pistol",
-        label = "Ceramic Pistol"
-    },
-    ["weapon_navyrevolver"] = {
-        recoil = 2.9,
-        type = "pistol",
-        label = "Navy Revolver"
-    },
-    ["weapon_gadgetpistol"] = {
-        recoil = 1.1,
-        type = "pistol",
-        label = "Perico Pistol"
     },
     ["weapon_microsmg"] = {
         recoil = 0.7,
@@ -621,11 +491,6 @@ Config.Weapons = {
             }
         }
     },
-    ["weapon_raycarbine"] = {
-        recoil = 0.0,
-        type = "smg",
-        label = "Unholy Hellbringer"
-    },
     ["weapon_pumpshotgun"] = {
         recoil = 1.0,
         type = "shotgun",
@@ -679,11 +544,6 @@ Config.Weapons = {
                 label = "Shotgun Barrel"
             }
         }
-    },
-    ["weapon_sawnoffshotgun"] = {
-        recoil = 1.2,
-        type = "shotgun",
-        label = "Sawed-Off Shotgun"
     },
     ["weapon_assaultshotgun"] = {
         recoil = 0.8,
@@ -739,11 +599,6 @@ Config.Weapons = {
             }
         }
     },
-    ["weapon_musket"] = {
-        recoil = 1.5,
-        type = "shotgun",
-        label = "Musket"
-    },
     ["weapon_heavyshotgun"] = {
         recoil = 0.6,
         type = "shotgun",
@@ -770,16 +625,6 @@ Config.Weapons = {
                 label = "Shotgun Barrel"
             }
         }
-    },
-    ["weapon_dbshotgun"] = {
-        recoil = 1.1,
-        type = "shotgun",
-        label = "Double Barrel Shotgun"
-    },
-    ["weapon_autoshotgun"] = {
-        recoil = 0.5,
-        type = "shotgun",
-        label = "Sweeper Shotgun"
     },
     ["weapon_assaultrifle"] = {
         recoil = 0.5,
@@ -1061,9 +906,35 @@ Config.Weapons = {
         }
     },
     ["weapon_compactrifle"] = {
-        recoil = 0.6,
+        recoil = 0.3,
         type = "rifle",
-        label = "Compact Rifle"
+        label = "Military Rifle",
+        attachments = {
+            suppressor = {
+                modifier = 0.8,
+                label = "Rifle Suppressor"
+            },
+            grip = {
+                modifier = 0.8,
+                label = "Vertical Grip"
+            },
+            extendedMag = {
+                modifier = 1.07,
+                label = "Rifle Extended Mag"
+            },
+            drumMag = {
+                modifier = 1.12,
+                label = "Rifle Drum Mag"
+            },
+            barrel = {
+                modifier = 0.85,
+                label = "Heavy Barrel"
+            },
+            scope = {
+                modifier = 1.0,
+                label = "Rifle Scope"
+            }
+        }
     },
     ["weapon_militaryrifle"] = {
         recoil = 0.3,
@@ -1097,9 +968,35 @@ Config.Weapons = {
         }
     },
     ["weapon_heavyrifle"] = {
-        recoil = 0.4,
+        recoil = 0.3,
         type = "rifle",
-        label = "Heavy Rifle"
+        label = "Military Rifle",
+        attachments = {
+            suppressor = {
+                modifier = 0.8,
+                label = "Rifle Suppressor"
+            },
+            grip = {
+                modifier = 0.8,
+                label = "Vertical Grip"
+            },
+            extendedMag = {
+                modifier = 1.07,
+                label = "Rifle Extended Mag"
+            },
+            drumMag = {
+                modifier = 1.12,
+                label = "Rifle Drum Mag"
+            },
+            barrel = {
+                modifier = 0.85,
+                label = "Heavy Barrel"
+            },
+            scope = {
+                modifier = 1.0,
+                label = "Rifle Scope"
+            }
+        }
     },
     ["weapon_mg"] = {
         recoil = 0.2,
@@ -1181,11 +1078,6 @@ Config.Weapons = {
                 label = "MG Scope"
             }
         }
-    },
-    ["weapon_gusenberg"] = {
-        recoil = 0.25,
-        type = "mg",
-        label = "Gusenberg Sweeper"
     },
     ["weapon_sniperrifle"] = {
         recoil = 0.1,
@@ -1301,76 +1193,6 @@ Config.Weapons = {
                 label = "Sniper Scope"
             }
         }
-    },
-    ["weapon_precisionrifle"] = {
-        recoil = 0.25,
-        type = "sniper",
-        label = "Precision Rifle"
-    },
-    ["weapon_rpg"] = {
-        recoil = 0.0,
-        type = "heavy",
-        label = "RPG"
-    },
-    ["weapon_grenadelauncher"] = {
-        recoil = 0.0,
-        type = "heavy",
-        label = "Grenade Launcher"
-    },
-    ["weapon_grenadelauncher_smoke"] = {
-        recoil = 0.0,
-        type = "heavy",
-        label = "Smoke Grenade Launcher"
-    },
-    ["weapon_minigun"] = {
-        recoil = 0.0,
-        type = "heavy",
-        label = "Minigun"
-    },
-    ["weapon_firework"] = {
-        recoil = 0.0,
-        type = "heavy",
-        label = "Firework Launcher"
-    },
-    ["weapon_railgun"] = {
-        recoil = 0.0,
-        type = "heavy",
-        label = "Railgun"
-    },
-    ["weapon_hominglauncher"] = {
-        recoil = 0.0,
-        type = "heavy",
-        label = "Homing Launcher"
-    },
-    ["weapon_compactlauncher"] = {
-        recoil = 0.0,
-        type = "heavy",
-        label = "Compact Grenade Launcher"
-    },
-    ["weapon_rayminigun"] = {
-        recoil = 0.0,
-        type = "heavy",
-        label = "Widowmaker"
-    },
-    ["weapon_emplauncher"] = {
-        recoil = 0.0,
-        type = "heavy",
-        label = "EMP Launcher"
-    },
-    ["weapon_grenade"] = {
-        recoil = 0.0,
-        type = "throwable",
-        label = "Grenade"
-    },
-    ["weapon_bzgas"] = {
-        recoil = 0.0,
-        type = "throwable",
-        label = "BZ Gas"
-    },
-    ["weapon_molotov"] = {
-        recoil = 0.0,
-        type = "throwable",
-        label = "Molotov"
     },
 }
 
