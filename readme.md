@@ -32,7 +32,6 @@ An optimized and customizable weapon recoil system for FiveM servers that dynami
 
   * Enable logging and real-time feedback during testing
 
-* **200+ Preconfigured Weapons** ready to go
 
 ---
 
